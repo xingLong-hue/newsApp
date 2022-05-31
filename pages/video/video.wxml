@@ -1,0 +1,141 @@
+<view id="header">
+  <view class="header_left ">
+  <view class="header_left_item {{itemFlag == 1?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="1">推荐</view>
+  <view class="header_left_item {{itemFlag == 2?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="2">小视频</view>
+  <view class="header_left_item {{itemFlag == 3?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="3">直播</view>
+  <view class="header_left_item {{itemFlag == 4?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="4">电台</view>
+  </view>
+  <view class="header_right">
+  <image src="/img/图片1.png" class="header_right_img"></image>
+  </view>
+</view>
+
+<view class="onevideo">
+<video id="myVideo" src="{{videoSrc}}" enable-danmu controls show-fullscreen-btn show-center-play-btn="{{false}}" auto-pause-if-navigate auto-pause-if-open-native show-play-btn object-fit="fill" bindpause="bindpause" bindended="bindended" >
+  <cover-view class="video_cover" wx:if="{{isShow}}" bindtap="bindplay">
+    <cover-image src="{{videoCoverImg}}" mode="widthFix"></cover-image>
+    <cover-image src="{{videoPlayIcon}}" mode="widthFix" class="video_play_icon"></cover-image>
+    <cover-view class="zaixian">
+    <view  class="zaixian_img"><image src="/img/video_img/新消息红点.png"></image></view>
+        <view class="zaixian_text">直播中</view>
+        <view  class="zaixian_text">2300在线</view>
+    </cover-view>
+
+    <cover-view class="video_bg_black">
+          <view class="jru">进入直播间</view>
+    </cover-view>      
+  </cover-view>
+</video>
+</view>
+<view class="mid">
+<view class="mid_one">我的直播间</view>
+<view class="mid_two">查看全部120   ></view>
+</view>
+<view class="video_list">
+<view class="video_one"  bindtap="videoplayer">
+<video id="myVideo1" src="{{videoSrc}}"  >
+  <cover-view class="video_cover" >
+    <cover-image src="{{videoCoverImg1}}" mode="widthFix"></cover-image>
+    <cover-image src="{{videoPlayIcon}}" mode="widthFix" class="video_play_icon1"></cover-image>      
+  </cover-view>
+  <cover-view class="zaixian1">
+        <view  class="zaixian_text1">在线12.9万</view>
+    </cover-view>
+    <cover-view class="zaixian2">
+        <view  class="zaixian_text2">直播中</view>
+    </cover-view>
+</video>
+</view>
+<view class="video_one" bindtap="videoplayer1">
+<video id="myVideo1" src="{{videoSrc}}" enable-danmu controls show-fullscreen-btn show-center-play-btn="{{false}}" auto-pause-if-navigate auto-pause-if-open-native show-play-btn object-fit="fill" bindpause="bindpause" bindended="bindended" >
+  <cover-view class="video_cover" >
+    <cover-image src="{{videoCoverImg2}}" mode="widthFix"></cover-image>
+    <cover-image src="{{videoPlayIcon}}" mode="widthFix" class="video_play_icon1"></cover-image>      
+  </cover-view>
+  <cover-view class="zaixian1">
+        <view  class="zaixian_text1">在线33.9万</view>
+    </cover-view>
+    <cover-view class="zaixian2">
+        <view  class="zaixian_text2">直播中</view>
+    </cover-view>
+</video>
+</view>
+<view class="video_one" bindtap="videoplayer2">
+<video id="myVideo1" src="{{videoSrc}}" enable-danmu controls show-fullscreen-btn show-center-play-btn="{{false}}" auto-pause-if-navigate auto-pause-if-open-native show-play-btn object-fit="fill" bindpause="bindpause" bindended="bindended" >
+  <cover-view class="video_cover">
+    <cover-image src="{{videoCoverImg3}}" mode="widthFix"></cover-image>
+    <cover-image src="{{videoPlayIcon}}" mode="widthFix" class="video_play_icon1"></cover-image>      
+  </cover-view>
+  <cover-view class="zaixian1">
+        <view  class="zaixian_text1">在线10.2万</view>
+    </cover-view>
+    <cover-view class="zaixian2">
+        <view  class="zaixian_text2">直播中</view>
+    </cover-view>
+</video>
+</view>
+<view class="video_one" bindtap="videoplayer3">
+<video id="myVideo1" src="{{videoSrc}}" enable-danmu controls show-fullscreen-btn show-center-play-btn="{{false}}" auto-pause-if-navigate auto-pause-if-open-native show-play-btn object-fit="fill" bindpause="bindpause" bindended="bindended" >
+  <cover-view class="video_cover">
+    <cover-image src="{{videoCoverImg4}}" mode="widthFix"></cover-image>
+    <cover-image src="{{videoPlayIcon}}" mode="widthFix" class="video_play_icon1"></cover-image>      
+  </cover-view>
+  <cover-view class="zaixian1">
+        <view  class="zaixian_text1">在线99.6万</view>
+    </cover-view>
+    <cover-view class="zaixian2">
+        <view  class="zaixian_text2">直播中</view>
+    </cover-view>
+</video>
+</view>
+
+
+</view>
+<view class="content">
+<view class="content_text">每时每刻总览天下</view>
+<view class="content_text">每天及时呈现最劲爆得快讯</view>
+<view class="content_text">立足上海放眼全球</view>
+<view class="content_text">最最最最‘历史前三’</view>
+</view>
+<view class="line"></view>
+<view class="bottom">
+<view class="bottom_text">全部直播</view>
+<view class="bottom_text">大神推荐</view>
+<view class="bottom_text">视频美女</view>
+<view class="bottom_text">绝地网游</view>
+</view>
+<view class="video_list1">
+<view class="video_one1" bindtap="videoplayer4">
+<video id="myVideo2" src="{{videoSrc}}" enable-danmu controls show-fullscreen-btn show-center-play-btn="{{false}}" auto-pause-if-navigate auto-pause-if-open-native show-play-btn object-fit="fill" bindpause="bindpause" bindended="bindended" >
+  <cover-view class="video_cover">
+    <cover-image src="{{videoCoverImg5}}" mode="widthFix"></cover-image>
+    <cover-image src="{{videoPlayIcon}}" mode="widthFix" class="video_play_icon2"></cover-image>      
+  </cover-view>
+</video>
+</view>
+<view class="video_one1" bindtap="videoplayer5">
+<video id="myVideo2" src="{{videoSrc}}" enable-danmu controls show-fullscreen-btn show-center-play-btn="{{false}}" auto-pause-if-navigate auto-pause-if-open-native show-play-btn object-fit="fill" bindpause="bindpause" bindended="bindended" >
+  <cover-view class="video_cover">
+    <cover-image src="{{videoCoverImg6}}" mode="widthFix"></cover-image>
+    <cover-image src="{{videoPlayIcon}}" mode="widthFix" class="video_play_icon2"></cover-image>      
+  </cover-view>
+</video>
+</view>
+<view class="line2"></view>
+<view class="video_one1" bindtap="videoplayer6">
+<video id="myVideo2" src="{{videoSrc}}" enable-danmu controls show-fullscreen-btn show-center-play-btn="{{false}}" auto-pause-if-navigate auto-pause-if-open-native show-play-btn object-fit="fill" bindpause="bindpause" bindended="bindended" >
+  <cover-view class="video_cover">
+    <cover-image src="{{videoCoverImg8}}" mode="widthFix"></cover-image>
+    <cover-image src="{{videoPlayIcon}}" mode="widthFix" class="video_play_icon2"></cover-image>      
+  </cover-view>
+</video>
+</view>
+<view class="video_one1" bindtap="videoplayer7">
+<video id="myVideo2" src="{{videoSrc}}" enable-danmu controls show-fullscreen-btn show-center-play-btn="{{false}}" auto-pause-if-navigate auto-pause-if-open-native show-play-btn object-fit="fill" bindpause="bindpause" bindended="bindended" >
+  <cover-view class="video_cover">
+    <cover-image src="{{videoCoverImg7}}" mode="widthFix"></cover-image>
+    <cover-image src="{{videoPlayIcon}}" mode="widthFix" class="video_play_icon2"></cover-image>      
+  </cover-view>
+</video>
+</view>
+</view>

@@ -1,0 +1,174 @@
+/* pages/msg/msg.wxss */
+#header{
+  height: 6vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: -6px;
+}
+.header_left{
+  padding-left: 24rpx;
+  box-sizing: border-box;
+  width:90vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  /* border: 2rpx solid  red; */
+}
+.header_left_item{
+  font-size: 34rpx;
+  padding-bottom:14rpx;
+  font-weight: 550;
+  color:#333;
+  /* border-bottom: 7.4rpx solid #5190EA; */
+  border-bottom: 7.2rpx solid white;
+}
+.selectedBlue {
+  color:#5190EA;
+  border-bottom: 7.2rpx solid #5190EA;
+}
+.header_right{
+  padding-bottom: 22rpx;
+  display: flex;
+  align-items: center;
+  /* border: 2rpx solid  red; */
+}
+.header_right_img{
+  width: 38rpx;
+  height: 38rpx;
+ padding-left: 10rpx;
+}
+.line{
+  width: 100%;
+  height: 0.5px;
+  background-color: #eaf1f6;
+}
+.msg{
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.headerr{
+  width: 92%;
+  height: 40px;
+  margin: 0px 4%;
+  display: flex;
+}
+.touxiang image{
+  width: 32px;
+  height: 32px;
+}
+.touxiang_con{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+
+}
+.touxiang_name{
+  width: 85px;
+  height: 35px;
+  display: flex;
+  font-size: 14px;
+
+}
+.touxiang_name image{
+  width: 15px;
+  height: 15px;
+  padding: 2px 2px;
+
+}
+.touxiang_three{
+  display: flex;
+  height: 18px;
+
+}
+.touxiang_time{
+  color: darkgray;
+  font-size: 12px;
+  margin-top: 2px;
+}
+.jiantou{
+  width: 80px;
+  text-align: center;
+  line-height: 4px;
+}
+.jiantou image{
+  width: 16px;
+  height: 16px;
+}
+.content{
+  width: 92%;
+  height: auto;
+  margin: 10px 4% 10px 4%;
+  font-size: 14px;
+}
+.picture{
+  width: 92%;
+  height: 180px;
+  margin: 0px 4%;
+}
+.picture image{
+  width: 100%;
+  height: 180px;
+}
+.bottom{
+  width: 92%;
+  height: 40px;
+  margin: 0px 4%;
+  display: flex;
+}
+.bottom_left{
+  width: 60%;
+  height: 40px;
+  line-height: 50px;
+  display: flex;
+}
+.bottom_left image{
+  width: 20px;
+  height: 20px;
+  padding: 0px 2px;
+  border-radius: 20px;
+}
+.bottom_right{
+  width: 60%;
+  height: 40px;
+  display: flex;
+  margin-top: 4px;
+}
+.share{
+  width: 30%;
+  height: 40px;
+  display: flex;
+  line-height: 40px;
+  text-align: center;
+  padding: 0px 2px;
+}
+.share image{
+  width: 16px;
+  height: 18px;
+}
+.share_text {
+  margin-left: 5px;
+  line-height: 37px;
+  font-size: 12px;
+}
+.line2{
+  width: 100%;
+  height: 12px;
+  background-color: #f2f2f2;
+}
+.dianzan{
+  width: 30px;
+  height: 30px;
+  background: #ffe2e2;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-left: 10px;
+  font-size: 13px;
+}
+.hover_praise, .changed {
+  transition: 0.5s;
+  background: #ffc7c7;
+}

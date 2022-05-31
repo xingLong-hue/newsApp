@@ -1,0 +1,120 @@
+<!--pages/zazhi/zazhi.wxml-->
+
+<view class="all"> 
+
+<!-- img -->
+    <view class="img">
+    <swiper class='bannerSwiper' 
+    previous-margin="60rpx" 
+    next-margin='60rpx' 
+    autoplay="true"
+     indicator-active-color='#fff' 
+     interval='4000' duration='500'
+      bindchange='onChange' 
+      circular='true'>
+      <block wx:for="{{banner}}">
+        <swiper-item>
+          <image class="{{index==xindex?'imageBanner':'imageBanner_small'}}"
+           data-index="{{index}}" data-item="item" src="{{item}}"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+</view>
+<!-- end -->
+<view class="text">
+<view class="text_1">每日听刊</view>
+<view class="text_2">查看全部
+<image class="text_img" src="../../zazhi_img/video_on.png"></image>
+</view>
+</view>
+<!-- end -->
+<view class="div1">
+<view class="div1_1">
+<image class="div1_img" src="../../zazhi_img/video_on.png"></image>
+<view class="div_text">体育运动 | 《足球周刊》</view>
+<view class="div_text2"> 12:00</view>
+</view>
+<!--  -->
+<view class="div1_1">
+<image class="div1_img" src="../../zazhi_img/video_on.png"></image>
+<view class="div_text">健身运动 | 《高尔夫大师》</view>
+<view class="div_text2"> 12:00</view>
+</view>
+<!--  -->
+<view class="div1_1">
+<image class="div1_img" src="../../zazhi_img/video_on.png"></image>
+<view class="div_text">旅游摄影 | 《中国国家地理》</view>
+<view class="div_text2"> 12:00</view>
+</view>
+<!--  -->
+</view>
+<!-- end -->
+<view class="xxx"></view>
+<!-- 我的订阅 -->
+<view class="div2">
+<view class="div2_text">
+<view class="div2_text1">我的订阅</view>
+<view class="div2_text2">查看全部
+<image class="div2_img" src="../../zazhi_img/right.png"></image></view>
+</view>
+<!-- heand -->
+<view class="table">
+
+<view class="table_div">
+<view class="table_A">
+<image class="table_img" src="../../zazhi_img/2.jpg"></image>
+<view class="f13">艺术设计</view>
+<view class="f13">2021年7月21日</view>
+</view>
+<view class="table_A">
+<image class="table_img" src="../../zazhi_img/3.jpg"></image>
+<view class="f13">中国儿童海报</view>
+<view class="f13">2021年7月21日</view>
+</view>
+<view class="table_A">
+<image class="table_img" src="../../zazhi_img/4.jpg"></image>
+<view class="f13">演讲与口才</view>
+<view class="f13">2021年7月21日</view>
+</view>
+</view>
+<!-- 2 -->
+<view class="table_div">
+<view class="table_A">
+<image class="table_img" src="../../zazhi_img/5.jpg"></image>
+<view class="f13">#摄影#</view>
+<view class="f13">2021年7月21日</view>
+</view>
+<view class="table_A">
+<image class="table_img" src="../../zazhi_img/6.jpg"></image>
+<view class="f13">美食栏目</view>
+<view class="f13">2021年7月21日</view>
+</view>
+<view class="table_A">
+<image class="table_img" src="../../zazhi_img/7.jpg"></image>
+<view class="f13">大国工匠</view>
+<view class="f13">2021年7月21日</view>
+</view>
+</view>
+<!-- 3 -->
+<view class="table_div">
+<view class="table_A">
+<image class="table_img" src="../../zazhi_img/8.jpg"></image>
+<view class="f13">艺术设计</view>
+<view class="f13">2021年7月21日</view>
+</view>
+<view class="table_A">
+<image class="table_img" src="../../zazhi_img/9.jpg"></image>
+<view class="f13">艺术设计</view>
+<view class="f13">2021年7月21日</view>
+</view>
+<view class="table_A">
+<image class="table_img" src="../../zazhi_img/10.jpg"></image>
+<view class="f13">艺术设计</view>
+<view class="f13">2021年7月21日</view>
+</view>
+</view>
+
+</view>
+</view>
+<!-- end -->
+</view>

@@ -1,0 +1,76 @@
+<view class="title">
+  <view id="header">
+  <view class="header_left ">
+  <view class="header_left_item {{itemFlag == 1?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="1">订阅</view>
+  <view class="header_left_item {{itemFlag == 2?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="2">杂志</view>
+  <view class="header_left_item {{itemFlag == 3?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="3">关注</view>
+  <view class="header_left_item {{itemFlag == 4?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="4">自媒体</view>
+  <view class="header_left_item {{itemFlag == 5?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="5">问答</view>
+  </view>
+  <view class="header_right">
+  <image src="/images/msg_img/图片1.png" class="header_right_img"></image>
+  </view>
+</view>
+</view>
+
+<view wx:if="{{itemFlag == 1}}">
+  <view class="line"></view>
+<view class="msg" catchtap="pass"   data-curIndex="{{index}}" wx:for="{{list}}" wx:key="*this">
+<view class="headerr" >
+<view class="touxiang"><image src="{{item.touxiang}}"> </image></view>
+<view class="touxiang_con">
+<view class="touxiang_three">
+<view class="touxiang_name">{{item.name}}</view>
+<view class="touxiang_name">
+<view>
+<image src="{{item.star}}"></image>
+</view>
+<view>
+<image src="{{item.star}}"></image>
+</view>
+<view>
+<image src="{{item.star}}"></image>
+</view>
+<view>
+<image src="{{item.star}}"></image>
+</view>
+</view>
+<view class="touxiang_name">{{item.score}}</view>
+</view>
+<view class="touxiang_time">{{item.time}}</view>
+</view>
+<view class="jiantou">
+<image src="{{item.jiantou}}"></image>
+</view>
+</view>
+<view class="content">
+<view>{{item.content}}</view>
+</view>
+<view class="picture" ><image src="{{item.img}}"></image></view>
+<view class="bottom" catchtap="pass" >
+<view class="bottom_left">
+<view><image src="{{item.four_img}}"></image></view>
+<view><image src="{{item.one_img}}"></image></view>
+<view><image src="{{item.two_img}}"></image></view>
+<view><image src="{{item.three_img}}"></image></view>
+</view>
+<view class="bottom_right">
+<view class="share">
+<view><image src="{{ item.share_img }}"></image></view>
+<view class="share_text">{{item.share_text}}</view>
+</view>
+<view class="share">
+<view bindtap="click_plun"><image src="{{ item.plun_img }}"></image></view>
+<view class="share_text">{{item.plun_text}}</view>
+</view>
+<view class="share"   >
+  <view class="dianzan {{item.hasChange? 'changed': ''}}"  hover-class="hover_praise"  bindtap="praiseThis" data-curIndex="{{index}}">{{item.praise}}</view>
+</view>
+</view>
+</view>
+<view class="line2"></view>
+</view>
+</view>
+<zazhi wx:if="{{itemFlag == 2 || itemFlag == 4}}"></zazhi>
+<guanzhu wx:if="{{itemFlag == 3}}"></guanzhu>
+<wenda wx:if="{{itemFlag == 5}}"></wenda>

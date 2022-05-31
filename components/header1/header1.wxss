@@ -1,0 +1,39 @@
+.header{
+  height: 6vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border-bottom: 1rpx solid  red;
+}
+.header_left{
+  padding-left: 24rpx;
+  box-sizing: border-box;
+  width:90vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  /* border: 2rpx solid  red; */
+}
+.header_left_item{
+  font-size: 34rpx;
+  padding-bottom:14rpx;
+  font-weight: 550;
+  color:#333;
+  /* border-bottom: 7.4rpx solid #5190EA; */
+  border-bottom: 7.2rpx solid white;
+}
+.selectedBlue {
+  color:#5190EA;
+  border-bottom: 7.2rpx solid #5190EA;
+}
+.header_right{
+  padding-bottom: 22rpx;
+  display: flex;
+  align-items: center;
+  /* border: 2rpx solid  red; */
+}
+.header_right_img{
+  width: 38rpx;
+  height: 38rpx;
+ padding-left: 10rpx;
+}

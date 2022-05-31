@@ -1,0 +1,12 @@
+<view class="header">
+  <view class="header_left ">
+  <view class="header_left_item {{itemFlag == 1?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="1">订阅</view>
+  <view class="header_left_item {{itemFlag == 2?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="2">杂志</view>
+  <view class="header_left_item {{itemFlag == 3?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="3">关注</view>
+  <view class="header_left_item {{itemFlag == 4?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="4">自媒体</view>
+  <view class="header_left_item {{itemFlag == 5?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="5">问答</view>
+  </view>
+  <view class="header_right">
+  <image src="../../images/search.png" class="header_right_img"></image>
+  </view>
+</view>

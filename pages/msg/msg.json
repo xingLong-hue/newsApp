@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "guanzhu":"../../components/guanzhu/guanzhu",
+    "wenda":"../../components/wenda/wenda",
+    "zazhi":"../../components/zazhi/zazhi"
+  },
+  "navigationBarTitleText": "订阅"
+}

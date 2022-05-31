@@ -1,0 +1,29 @@
+.onevideo{
+  width: 100%;
+  height: 300px;
+}
+#myVideo{
+  width: 100%;
+  height: 610px;
+}
+.video_cover{
+  width:100%;
+  height:100%;
+  position:relative;
+}
+.video_play_icon{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  width:60px;
+  height:60px;
+  z-index:5
+}
+.video_bg_black{
+  position:absolute;
+  left:0;
+  top:0;
+  bottom:0;
+  right:0;
+}

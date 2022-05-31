@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "lhj":"../../components/header1/header1"
+  }, 
+   "navigationBarTitleText": "发现",
+   "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle":"black"
+}

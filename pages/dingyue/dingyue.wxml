@@ -1,0 +1,110 @@
+<!--pages/dingyue/dingyue.wxml-->
+<view id="header">
+  <view class="header_left ">
+  <view class="header_left_item {{itemFlag == 1?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="1">订阅</view>
+  <view class="header_left_item {{itemFlag == 2?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="2">杂志</view>
+  <view class="header_left_item {{itemFlag == 3?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="3">关注</view>
+  <view class="header_left_item {{itemFlag == 4?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="4">自媒体</view>
+  <view class="header_left_item {{itemFlag == 5?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="5">问答</view>
+  </view>
+  <view class="header_right">
+  <image src="/img/向右.png" class="header_right_img"></image>
+  </view>
+</view>
+
+<view class="head">
+  <view class="lwj_header">
+    <view class="lwj_header_one">
+    <view class="lwj_header_one_img"><image src="/img/置顶.png"></image></view>
+    <view class="lwj_header_two_img"><image src="/img/touxiang-1.webp"></image></view>
+    <view class="lwj_header_one_text">山东新闻在线 | 3小时前</view>
+    <view class="lwj_header_three_img"><image src="/img/qita.png"></image></view>
+    </view>
+    <view class="lwj_header_two">暑假想给孩子报个训练班全面提示孩子的各门功课（五年级）有哪些专辑可以推荐?</view>
+    <view class="lwj_header_three">
+      <view class="share">
+<view><image src="/img/评论.png"></image></view>
+<view class="share_text">898评论</view>
+</view>
+<view class="share">
+<view><image src="/img/心.png"></image></view>
+<view class="share_text">553点赞</view>
+</view>
+<view class="share1">
+  <view><image src="/img/参与讨论.png"></image></view>
+<view class="share_text1">参与讨论</view>
+</view>
+     </view>
+    </view>
+
+</view>
+
+<view class="header_nav">
+  <view class="header_list {{itemFlag1 == 6?'selectedBlue1':''}}" bindtap="changeItemFlag1" data-index="6">互联网</view>
+  <view class="header_list {{itemFlag1 == 7?'selectedBlue1':''}}" bindtap="changeItemFlag1" data-index="7">社会生活</view>
+  <view class="header_list {{itemFlag1 == 8?'selectedBlue1':''}}" bindtap="changeItemFlag1" data-index="8">职场技能</view>
+  <view class="header_list {{itemFlag1 == 9?'selectedBlue1':''}}" bindtap="changeItemFlag1" data-index="9">健康养生</view>
+</view>
+
+<view class="main">
+<view class="word_list1"><text>铜钱草土培，为什么叶子会枯黄，新长出的小苗没长多大叶枯萎了呢？</text></view>
+<view class="xinxi"> 
+   <image src="/img/touxiang-2.webp" style="width:50px;height:50px;border-radius:50%"></image>
+    <view class="he">
+  <view>长不大的三毛
+  <view style="font-size:22rpx;margin-top:5px">2小时前</view>
+  </view>
+  <view class="lv6">Lv6</view>
+  <view class="qita"><image src="/img/qita.png" style="width:60rpx;height:60rpx;"></image></view>
+  </view>
+   </view>
+   <view class="main_content">
+<view class="huida">
+  <view class="word_list2">为什么叶子会枯黄，新长出来的小苗没长多大叶枯萎了呢？买了一盆好好的，一个多月了就开始这样了，谢谢</view>
+  <view class="xinxi2">
+  <view class="foot_pic">
+    <image src="/img/touxiang-1.webp" ></image>
+  <image src="/img/touxiang.webp" ></image>
+  <image src="/img/touxiang-2.webp" ></image>
+  <image src="/img/touxiang-3.webp" ></image> </view>
+  <view class="word_list3">
+  <view style="color:red">210</view><view style="margin-left:-9px">人回答  |</view>
+  <view style="color:red">89</view>
+  <view style="margin-left:-9px">赞</view>
+  </view>
+ </view>
+</view> 
+<view class="img_list"><image src="/img/hua.webp" ></image></view>
+</view>
+</view> 
+<view class="kong"></view>
+<view class="main">
+<view class="word_list1"><text>人口老龄化的时代，自动贩卖机会是问题答案吗？如果现在入行，会不会接盘？</text></view>
+<view class="xinxi"> 
+   <image src="/img/touxiang-3.webp" style="width:50px;height:50px;border-radius:50%"></image>
+    <view class="he">
+  <view>文无敌
+  <view style="font-size:22rpx;margin-top:5px">40分钟前</view>
+  </view>
+  <view class="lv10">Lv10</view>
+  <view class="qita1"><image src="/img/qita.png" style="width:60rpx;height:60rpx;"></image></view>
+  </view>
+   </view>
+   <view class="main_content">
+<view class="huida">
+  <view class="word_list2">自动贩卖机到底是夕阳产业还是朝阳产业呢？做生意都是奔着赚钱去的，没人会想着进来给人接盘、擦屁股。</view>
+  <view class="xinxi2">
+  <view class="foot_pic">
+    <image src="/img/touxiang-1.webp" ></image>
+  <image src="/img/touxiang.webp" ></image>
+  <image src="/img/touxiang-2.webp" ></image>
+  <image src="/img/touxiang-3.webp" ></image> </view>
+  <view class="word_list3">
+    <view style="color:red">576</view><view style="margin-left:-9px">人回答  |</view>
+  <view style="color:red">29</view>
+  <view style="margin-left:-9px">赞</view></view>
+ </view>
+</view> 
+<view class="img_list"><image src="/img/1625451240032097206.png" ></image></view>
+</view>
+</view> 

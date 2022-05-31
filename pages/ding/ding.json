@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "diantai":"../../components/diantai/diantai"
+  },
+  "navigationBarTitleText": "视界"
+}

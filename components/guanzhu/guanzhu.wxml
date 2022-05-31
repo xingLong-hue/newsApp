@@ -1,0 +1,156 @@
+<view class="body">
+  <view class="left_guide">
+    <view class="left">
+      <view class="left_guide_text_border"></view>
+      <view class="left_text">推荐</view>
+     </view>
+  <view class="left_guide_text">新闻</view>
+  <view class="left_guide_text">时尚</view>
+  <view class="left_guide_text">美食</view>
+  <view class="left_guide_text">音乐</view>
+  <view class="left_guide_text">美图</view>
+  <view class="left_guide_text">旅游</view>
+  <view class="left_guide_text">摄影</view>
+  <view class="left_guide_text">生活</view>
+  <view class="left_guide_text">体育</view>
+  <view class="left_guide_text">历史</view>
+  </view>
+</view>
+
+<view class="left_border"></view>
+
+<view class="body_right">
+  <view class="right_list">
+    <view class="list_imgs">
+      <image src="../../images/guanzhu/1.png" class="head_img"></image>
+    </view>
+    <view class="list_v">
+      <image src="../../images/guanzhu/v.png" class="v"></image>
+    </view>
+    <view class="list_text">
+      <text class="t1">智能家居馆\n</text>
+      <view class="t">最新科技智能家居体验馆\n</view>
+      <text class="t">34.4万粉丝\n</text>
+    </view>
+    <view class="sub">
+      <view class="sub_btm">
+        <view class="sub_text">+订阅</view>
+      </view>
+    </view>
+  </view>
+  <view class="list_border"></view>
+  <view class="right_list">
+    <view class="list_imgs">
+      <image src="../../images/guanzhu/2.jpg" class="head_img"></image>
+    </view>
+    <view class="list_v">
+      <image src="../../images/guanzhu/v.png" class="v"></image>
+    </view>
+    <view class="list_text">
+      <text class="t1">车载世界\n</text>
+      <text class="t">汽车天下最新资讯前沿\n</text>
+      <text class="t">29.8万粉丝\n</text>
+    </view>
+    <view class="sub">
+      <view class="sub_btm">
+        <view class="sub_text">+订阅</view>
+      </view>
+    </view>
+  </view>
+  <view class="list_border"></view>
+  <view class="right_list">
+    <view class="list_imgs">
+      <image src="../../images/guanzhu/3.png" class="head_img"></image>
+    </view>
+    <view class="list_v">
+      <image src="../../images/guanzhu/v.png" class="v"></image>
+    </view>
+    <view class="list_text">
+      <text class="t1">动感音乐秀\n</text>
+      <text class="t">动感音乐你我一起行动\n</text>
+      <text class="t">31.1万粉丝\n</text>
+    </view>
+    <view class="sub">
+      <view class="sub_btm">
+        <view class="sub_text">+订阅</view>
+      </view>
+    </view>
+  </view>
+  <view class="list_border"></view>
+  <view class="right_list">
+    <view class="list_imgs">
+      <image src="../../images/guanzhu/4.png" class="head_img"></image>
+    </view>
+    <view class="list_v">
+      <image src="../../images/guanzhu/v.png" class="v"></image>
+    </view>
+    <view class="list_text">
+      <text class="t1">校园的时光\n</text>
+      <text class="t">回忆校园时光的灿烂笑容\n</text>
+      <text class="t">32.6万粉丝\n</text>
+    </view>
+    <view class="sub">
+      <view class="sub_btm">
+        <view class="sub_text">+订阅</view>
+      </view>
+    </view>
+  </view>
+  <view class="list_border"></view>
+  <view class="right_list">
+    <view class="list_imgs">
+      <image src="../../images/guanzhu/5.jpg" class="head_img"></image>
+    </view>
+    <view class="list_v">
+      <image src="../../images/guanzhu/v.png" class="v"></image>
+    </view>
+    <view class="list_text">
+      <text class="t1">生活百科\n</text>
+      <text class="t">生活小常识做生活的主人\n</text>
+      <text class="t">21.3万粉丝\n</text>
+    </view>
+    <view class="sub">
+      <view class="sub_btm">
+        <view class="sub_text">+订阅</view>
+      </view>
+    </view>
+  </view>
+  <view class="list_border"></view>
+  <view class="right_list">
+    <view class="list_imgs">
+      <image src="../../images/guanzhu/6.jpg" class="head_img"></image>
+    </view>
+    <view class="list_v">
+      <image src="../../images/guanzhu/v.png" class="v"></image>
+    </view>
+    <view class="list_text">
+      <text class="t1">美味佳肴\n</text>
+      <text class="t">每天一刻厨房美食分享\n</text>
+      <text class="t">45.4万粉丝\n</text>
+    </view>
+    <view class="sub">
+      <view class="sub_btm">
+        <view class="sub_text">+订阅</view>
+      </view>
+    </view>
+  </view>
+  <view class="list_border"></view>
+  <view class="right_list">
+    <view class="list_imgs">
+      <image src="../../images/guanzhu/7.jpg" class="head_img"></image>
+    </view>
+    <view class="list_v">
+      <image src="../../images/guanzhu/v.png" class="v"></image>
+    </view>
+    <view class="list_text">
+      <text class="t1">智能家居馆\n</text>
+      <text class="t">最新科技智能家居体验馆\n</text>
+      <text class="t">34.4万粉丝\n</text>
+    </view>
+    <view class="sub">
+      <view class="sub_btm">
+        <view class="sub_text">+订阅</view>
+      </view>
+    </view>
+  </view>
+  <view class="list_border"></view>
+</view>

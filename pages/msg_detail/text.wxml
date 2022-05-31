@@ -1,0 +1,88 @@
+<scroll-view>
+
+<view class="news_up">
+  <view class="news_up_img">
+    <image src="{{touxiang}}" class="head_img"></image>
+  </view>
+  <view class="news_up_id">
+  <view class="up_id">{{name}}</view>
+  </view>
+  <view class="news_up_sub">
+
+    <view class="sub">+关注</view>
+  </view>
+</view>
+
+<view class="news_title">{{content}}</view>
+
+<view class="read_imf">
+  <view class="read_counts">{{share_text}}阅读
+    <view class="read_stars">
+      <image src="{{star}}" class="stars"></image>
+      <image src="{{star}}" class="stars"></image>
+      <image src="{{star}}" class="stars"></image>
+      <image src="{{star}}" class="stars"></image>
+    </view>
+    <view class="read_comment">{{plun_text}}评论</view>
+    <view class="read_from">千库新闻网</view>
+  </view>
+</view>
+<view class="post_time">
+  <text>{{time}}</text>
+</view>
+
+<view class="pre_img">
+  <image src="{{pic}}" class="pre"></image>
+</view>
+
+
+
+
+<view class="news_content">
+  <text>{{mat}}</text>
+</view>
+
+<view class="btm_more">
+  <text>展开全部文章</text>
+  <image src="{{toward}}" class="toward"></image>
+</view>
+
+
+<view class="under">
+  <view class="like">
+    <view class="like_prev">
+     <image src="{{one_img}}" class="like_img"></image>
+     <image src="{{two_img}}" class="like_img"></image>
+     <image src="{{three_img}}" class="like_img"></image>
+     <image src="{{four_img}}" class="like_img"></image>
+
+     <view class="like_counts">
+        <text>156</text>
+     </view>
+     </view>
+
+ </view>
+
+
+
+<view class="comment">
+  <view class="line"></view>
+  <view class="comment_body">
+    <image src="{{pen}}" class="pen"></image>
+    <input type="text" class="comment_input"placeholder="想评论点什么...">
+    </input>
+  </view>
+    <view class="under_right">
+    <view>
+      <image src="{{share_img}}" class="under_btm1"></image>
+    </view>
+    <view>
+      <image src="{{like_img}}" class="under_btm"></image>
+    </view>
+    <view>
+      <image src="{{plun_img}}" class="under_btm"></image>
+    </view>
+   </view>
+  </view>
+</view>
+</scroll-view>

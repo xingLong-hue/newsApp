@@ -1,0 +1,138 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "个人中心",
+          "pathName": "pages/grzx/grzx",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "登录",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "test",
+          "pathName": "pages/test/test",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "header2",
+          "pathName": "components/header2/header2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "test2",
+          "pathName": "pages/test2/test2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "ding",
+          "pathName": "pages/ding/ding",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "电台",
+          "pathName": "components/diantai/diantai",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "头部1",
+          "pathName": "components/header1/header1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "video",
+          "pathName": "pages/video/video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "视界",
+          "pathName": "pages/ding/ding",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/msg_detail/text",
+          "pathName": "pages/msg_detail/text",
+          "query": "pic=%2Fimages%2Fmsg_img%2F1000.webp&touxiang=%2Fimages%2Fmsg_img%2FQQ.png&name=%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9&content=6%E6%9C%8817%E6%97%A5%EF%BC%8C%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E5%91%98%E8%81%82%E6%B5%B7%E8%83%9C%E3%80%81%E5%88%98%E4%BC%AF%E6%98%8E%E3%80%81%E6%B1%A4%E6%B4%AA%E6%B3%A2%E6%90%AD%E4%B9%98%E7%A5%9E%E8%88%9F%E5%8D%81%E4%BA%8C%E5%8F%B7%E8%BD%BD%E4%BA%BA%E9%A3%9E%E8%88%B9%E8%BF%9B%E5%85%A5%E5%A4%AA%E7%A9%BA&time=2021-07-04&plun_text=999%2B&one_img=%2Fimages%2Fmsg_img%2Fm19.jpeg&two_img=%2Fimages%2Fmsg_img%2Fm50.jpeg&three_img=%2Fimages%2Fmsg_img%2Fm55.jpeg&four_img=%2Fimages%2Fmsg_img%2Fm17.jpeg&share_img=%2Fimages%2Fmsg_img%2F%E5%88%86%E4%BA%AB.png&plun_img=%2Fimages%2Fmsg_img%2F%E8%AF%84%E8%AE%BA.png&like_img=%2Fimages%2Fmsg_img%2F%E7%82%B9%E8%B5%9E(1).png&star=%2Fimages%2Fmsg_img%2Fstar.png&pen=%2Fimages%2Fmsg_img%2Fpen.png&toward=%2Fimages%2Fmsg_img%2Ftoward.png&mat=%E6%8D%AE%E4%B8%AD%E5%9B%BD%E8%BD%BD%E4%BA%BA%E8%88%AA%E5%A4%A9%E5%B7%A5%E7%A8%8B%E5%8A%9E%E5%85%AC%E5%AE%A4%E6%B6%88%E6%81%AF%EF%BC%8C7%E6%9C%884%E6%97%A514%E7%82%B957%E5%88%86%EF%BC%8C%E7%BB%8F%E8%BF%87%E7%BA%A67%E5%B0%8F%E6%97%B6%E7%9A%84%E5%87%BA%E8%88%B1%E6%B4%BB%E5%8A%A8%EF%BC%8C%E7%A5%9E%E8%88%9F%E5%8D%81%E4%BA%8C%E5%8F%B7%E8%88%AA%E5%A4%A9%E5%91%98%E4%B9%98%E7%BB%84%E5%AF%86%E5%88%87%E5%8D%8F%E5%90%8C%EF%BC%8C%E5%9C%86%E6%BB%A1%E5%AE%8C%E6%88%90%E5%87%BA%E8%88%B1%E6%B4%BB%E5%8A%A8%E6%9C%9F%E9%97%B4%E5%85%A8%E9%83%A8%E6%97%A2%E5%AE%9A%E4%BB%BB%E5%8A%A1%EF%BC%8C%E8%88%AA%E5%A4%A9%E5%91%98%E5%88%98%E4%BC%AF%E6%98%8E%E3%80%81%E6%B1%A4%E6%B4%AA%E6%B3%A2%E5%AE%89%E5%85%A8%E8%BF%94%E5%9B%9E%E5%A4%A9%E5%92%8C%E6%A0%B8%E5%BF%83%E8%88%B1%EF%BC%8C%E6%A0%87%E5%BF%97%E7%9D%80%E6%88%91%E5%9B%BD%E7%A9%BA%E9%97%B4%E7%AB%99%E5%BB%BA%E9%80%A0%E9%98%B6%E6%AE%B5%E8%88%AA%E5%A4%A9%E5%91%98%E9%A6%96%E6%AC%A1%E5%87%BA%E8%88%B1%E6%B4%BB%E5%8A%A8%E5%8F%96%E5%BE%97%E5%9C%86%E6%BB%A1%E6%88%90%E5%8A%9F%E3%80%82&share_text=999%2B",
+          "scene": null
+        },
+        {
+          "name": "pages/msg_detail/msg_detail",
+          "pathName": "pages/msg_detail/msg_detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "发现",
+          "pathName": "pages/faxian/faxian",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "直播",
+          "pathName": "pages/video/video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "关注组件",
+          "pathName": "components/guanzhu/guanzhu",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "订阅",
+          "pathName": "pages/msg/msg",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "问答组件",
+          "pathName": "components/wenda/wenda",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "杂志组件",
+          "pathName": "components/zazhi/zazhi",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "首页",
+          "pathName": "pages/shouye/shouye",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

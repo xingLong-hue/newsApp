@@ -1,0 +1,30 @@
+<view class="search">
+  <view class="search_left">
+    <image src="../../images/location.png"></image>
+    北京
+  </view>
+  <view class="search_mid">
+    <image src="../../images/search.png"></image>
+    <input type="text" placeholder="大家都在搜新中国70周年..."></input>
+  </view>
+  <view class="search_right">
+    <image src="../../images/sunCloud.png"></image>
+    23°c
+  </view>
+</view>
+<view class="header">
+  <scroll-view scroll-x="true" enable-flex="true">
+  <view class="header_left_item {{itemFlag == 1?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="1">热点</view>
+  <view class="header_left_item {{itemFlag == 2?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="2">关注</view>
+  <view class="header_left_item {{itemFlag == 3?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="3">时尚</view>
+  <view class="header_left_item {{itemFlag == 4?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="4">美食</view>
+  <view class="header_left_item {{itemFlag == 5?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="5">音乐</view>
+  <view class="header_left_item {{itemFlag == 6?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="6">美图</view>
+  <view class="header_left_item {{itemFlag == 7?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="7">旅游</view>
+  <view class="header_left_item {{itemFlag == 8?'selectedBlue':''}}" bindtap="changeItemFlag" data-index="8">xxx</view>
+</scroll-view>
+  <view class="header_right">
+  +
+  </view>
+</view>
+

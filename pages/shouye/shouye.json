@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+   "yinyue":"../../components/yinyue/yinyue"
+  },
+  "navigationBarTitleText": "首页"
+
+} 
